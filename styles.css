@@ -1,0 +1,105 @@
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #ffffff;
+    background-image: url('WidgetCoLogo.gif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    text-align: center;
+    font-variant:bold;
+    font-size: 15px;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+
+article {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+
+section {
+    background-color: #d8ffd6;
+    padding: 10px;
+    border: 2px solid rgb(49, 142, 49);
+    margin: 10px 0;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+h1 {
+    font-size: 32px;
+    text-align: all right;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+aside {
+    font-size: 12px; 
+    color: rgb(0, 0, 0); 
+    background-color: #44444400; 
+    padding: 10px; 
+    border-radius: 8px; 
+    float: right; 
+    width: 250px; 
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+    text-align: right;
+}
+
+
+aside::first-line {
+    font-variant: small-caps; 
+    font-weight: bold; 
+}
+
+
+
+footer {
+    color: rgba(133, 133, 133, 0.767);
+    text-align: right;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-style: italic;
+}
+
+footer a:link {
+    color: rgba(133, 133, 133, 0.767);
+    text-decoration:underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
